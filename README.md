@@ -41,3 +41,5 @@ Currently you have to modify these features directly in the code, look for the c
 
 I usually open a window that is slightly larger than the resolution of the screen/beamer, then move it using the mouse so that its borders are out of the display.
 
+## Ack ack
+The initial version of this program was written by Yulik Daniel.
