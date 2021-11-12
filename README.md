@@ -1,11 +1,11 @@
 # theater-subtitles
-This is a small python script for subtitle management in real time, e.g. for theater plays. With examples.
 
-This script offers an easy interface for playing subtitles in a real-time theater environment.
+This program offers an easy interface for playing subtitles in a real-time theater environment.
+
+It opens a window with the actual subtitles (to be displayed to the public somehow, on a big screen or a beamer). Meanwhile it displays in the terminal the few previous and next screens (useful when the actors skip a line... yes they sometimes do). You move from line to line using the keyboard arrows.
 
 Simple, no frill, tried and tested: this program has been used since 2017 in a dozen representations of the Russian theater school Okno in Lyon (http://club.lycorn.free.fr/spectacles.html).
 
-This script opens a window with the subtitles (to be displayed to the public somehow), and displays in the terminal the few previous and next screens (useful when the actors skip a line... yes they sometimes do). You move from line to line using the keyboard arrows.
 
 ## Usage
 
@@ -17,19 +17,21 @@ The screen always starts blank.
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
 This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the spectacle: better add a few blank lines at the end of your file!  
 
-### Example
+### Examples
 
-A classical play: 
+A classical play:
+
 		python subtitles.py Plays/2021-Gozzi-Voron/Acte1.txt 
 
 A display of poetry (translated from Russian to French):
+
 		python subtitles.py Plays/2019-zolotoi-viek.txt
 
 
 ## Syntax of the text file 
-The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax:
+The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples above):
 
-- any line beginning with a hash sign is a comment (displayed in the terminal but not in the public screen, useful for character names)
+- any line beginning with a hash sign is a comment (displayed in the terminal but not in the public screen -- this is useful e.g. for character names)
 - a group of lines to be displayed together begins with an unindented line, possibly followed by indented lines (i.e. lines beginning with space or tab)
 - an empty line shows a blank screen to the public
 
