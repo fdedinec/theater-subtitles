@@ -11,8 +11,8 @@ Simple, no frill, tried and tested: this program has been used since 2017 in a d
 
 	 python subtitles.py MyPlayFile.txt
 
-Use down arrow or space bar to advance to next screen, up arrow to come back to previous line.
-The screen always starts blank.
+Use down arrow or space bar to advance to next screen, up arrow to come back to previous screen.
+The public screen always starts blank.
 
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
 This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the spectacle: better add a few blank lines at the end of your file!  
@@ -36,6 +36,8 @@ The text to be displayed is read from a plain text file (UTF-8), with a trivial 
 - an empty line shows a blank screen to the public
 
 ## Configuration
-No font size or style option, but of course this will be necessary since each theater is different: it is very easy to modify in the code, look for the comments...
+No font size, window size or style option, but of course setting these up this will be necessary since each theater is different.
+Currently you have to modify these features directly in the code, look for the comments...
 
+I usually open a window that is slightly larger than the resolution of the screen/beamer, then move it using the mouse so that its borders are out of the display.
 
