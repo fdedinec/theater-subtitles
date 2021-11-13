@@ -24,8 +24,8 @@ The public screen always starts blank.
 - Split long lines so that they fit the screen.
 - During the late rehersals 
   - group lines into screens (max 4 lines per screen) according to the staging.
-	- insert blanks (empty lines) where needed
-  - tying 'r' reloads the subtitle file, so you may edit it while displaying it. 
+  - insert blanks (empty lines) where needed
+  - typing 'r' reloads the subtitle file, so you may edit it while displaying it. 
 
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
 This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the representation: better add a few blank lines at the end of your file!  
