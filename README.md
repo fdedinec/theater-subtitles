@@ -9,10 +9,23 @@ Simple, no frill, tried and tested: this program has been used since 2017 in a d
 
 ## Usage
 
+### Usage during a representation
+
 	 python subtitles.py MyPlayFile.txt
 
-Use down arrow or space bar to advance to next screen, up arrow to come back to previous screen.
+Use down arrow or space bar to advance to next screen, up arrow to come back to previous screen. 
+
 The public screen always starts blank.
+
+### While preparing your subtitle file
+
+- Acquire somehow a text version of your play.
+- Do some global replace on the character names etc.
+- Split long lines so that they fit the screen.
+- During the late rehersals 
+  - group lines into screens (max 4 lines per screen) according to the staging.
+	- insert blanks (empty lines) where needed
+  - tying 'r' reloads the subtitle file, so you may edit it while displaying it. 
 
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
 This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the spectacle: better add a few blank lines at the end of your file!  
@@ -32,7 +45,7 @@ A display of poetry (translated from Russian to French):
 The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples above):
 
 - any line beginning with a hash sign is a comment (displayed in the terminal but not in the public screen -- this is useful e.g. for character names)
-- a group of lines to be displayed together begins with an unindented line, possibly followed by indented lines (i.e. lines beginning with space or tab)
+- a group of lines to be displayed together begins with an unindented line, possibly followed by indented lines (i.e. lines beginning with a space)
 - an empty line shows a blank screen to the public
 
 ## Configuration
