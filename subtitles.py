@@ -26,7 +26,7 @@ def toggle_fullscreen():
     screen.blit(tmp,(0,0))
     pygame.display.set_caption(*caption)
 
-    pygame.key.set_mods(0) #HACK: work-a-round for a SDL bug??
+    pygame.key.set_mods(0) #HACK: work-around for a SDL bug??
 
     pygame.mouse.set_cursor( *cursor )  # Duoas 16-04-2007
     
@@ -56,8 +56,13 @@ def main(filename):
         f = codecs.open(filename, encoding='utf-8')
         lines=f.readlines()
         subtitles=[]
+        scenes=[] # a list of indices of scenes, useful for quicly moving up and down
         current=[]
         for line in lines:
+            if line[0:2] =="#S" :
+                position=len(subtitles)+1
+                scenes.append(position)
+                #print(" found scene at ",position)
             if line[0]!='#':
                 if line[0]==' ':
                     current.append(line.strip())
@@ -65,10 +70,10 @@ def main(filename):
                     subtitles.append(current)
                     current = [line.strip()]
         subtitles.append(current)
-        return subtitles
+        return subtitles, scenes
 
 
-    def affiche(i):
+    def display(i):
         screen.fill(black)
         phrase=subtitles[i]
         y=1
@@ -95,7 +100,7 @@ def main(filename):
             print()
         
 
-    subtitles = parse_file()
+    subtitles,scenes = parse_file()
     i=0
     done=False
     pygame.event.clear()
@@ -105,14 +110,30 @@ def main(filename):
                 done = True
             if event.type == pygame.KEYDOWN and event.key == pygame.K_r:
                 print("Reloading")
-                subtitles = parse_file()
+                subtitles, scenes = parse_file()
 
             if event.type == pygame.KEYDOWN and (event.key == pygame.K_SPACE or event.key == pygame.K_DOWN):
                 i+=1
-                affiche(i)
+                display(i)
             if event.type == pygame.KEYDOWN and event.key == pygame.K_UP:
                 i-=1
-                affiche(i)
+                display(i)
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_s:
+                # lookup in which scene we are
+                j=0
+                while scenes[j]<=i:
+                    j+=1
+                # now scenes[j]>i : move to next scene 
+                i=scenes[j]
+                display(i)
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_z:
+                # lookup in which scene we are
+                j=0
+                while scenes[j]<i:
+                    j+=1
+                # now scenes[j]>=i:  move to previous scene
+                i=scenes[j-1]
+                display(i)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # ACTE CINQUIÈME
 
-# SCENE PREMIÈRE
+#S  SCENE PREMIÈRE
 # BRIGHELLA,
 Tru... Truffaldino ?
 # TRUFFALDINO
@@ -97,7 +97,7 @@ Enfin, l'ancien. C'est-à-dire, je suis le premier, et toi l'ancien.
 Gaffe à ce que tu dis !
  Attention à qui tu parle !
 
-# SCENE II
+#S  SCENE II
 # PANTALON, STATUE DE# JENNARO.
 # PANTALON, gémissant.
 Ah, votre malchanceuse altesse...
@@ -161,7 +161,7 @@ Non, pardonne-moi, je n'en peux plus.
  Je n'ai plus la force de te regarder...
  Malheur, quel malheur !
 
-# SCENE III
+#S  SCENE III
 # LE ROI.
 Soldats, amis, serviteurs, laissez-moi !
  Je veux mourir ici dans les larmes.
@@ -182,7 +182,7 @@ Que je tombe à terre ici, que mon tombeau soit à tes pieds,
  Sur le marbre qui me couvrira, que l'on inscrive
  tes vertus, mes torts et la monstrueuse cruauté de Norando ! 
 
-# SCENE IV
+#S  SCENE IV
 # NORANDO.
 Le destin est implacable, et moi, je ne suis que son ministre.
 # LE ROI.
@@ -221,7 +221,7 @@ Arrête... Écoute... C'est ta fille, barbare !
  c'est la femme que j'aime !
  Oh ! Dieux ! qu'ai-je entendu !
 
-# SCENE V
+#S  SCENE V
 # LE ROI.
 Fuis, fuis, Armilla !
 
@@ -310,7 +310,7 @@ Et il ne faudrait pas un prix moindre
  pour rendre à son frère un frère si courageux, si unique.
 Je me sacrifie pour toi, accepte mon sang. 
 
-# SCENE VI
+#S  SCENE VI
 # SMERALDINE,# ARMILLA,# JENNARO.
 # JENNARO.
 Qui me délivre de cette prison de pierre ? 
@@ -347,7 +347,7 @@ La malheureuse, morte!
  ô ciel ! ô cruel Norando !
   Millon ! Millon !
 
-# SCENE VII
+#S  SCENE VII
 # LE ROI.
 Quels sont ces cris ?...
  Mon frère ! Jennaro !
@@ -366,7 +366,7 @@ Que ce poignard qui l'a transpercée
 Mon frère, revenez à vous.
 # LE ROI.
  - Non ! laissez-moi en finir avec cette vie !
-# SCENE VIII
+#S  SCENE VIII
 # NORANDO.
 Arrêtez !
  Vous avez assez souffert de ces vengeances,
@@ -419,7 +419,7 @@ Je perds la tête, excusez moi.
  Hé, vous autres,  les ministres, les gardres,
  accourez tous ! Venez admirer ce miracle!
  Venez ! Plus vite ! 
-# SCENE IX
+#S  SCENE IX
 # LEANDRE, voyant Jennaro.
 Que se passe-t-il ?
  Que vois-je ?

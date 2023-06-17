@@ -1,6 +1,6 @@
 # ACTE TROISIÈME
 
-# SCENE PREMIÈRE
+#S  SCENE PREMIÈRE
 # LE ROI.
 Armilla, la plus chère partie de mon cœur, 
  Armilla, le déchirement et la ruine de mon âme, 
@@ -74,7 +74,7 @@ Ne soyez pas offensée par la jalousie qui me dévore,
 Contentez votre désir;
  je ne m'en offenserai point !
 
-# SCENE II
+#S  SCENE II
 # JENNARO, 
 Jusqu'à ce moment, j'ai tout prévu, 
  ou je crois ayoir tout prévu
@@ -148,7 +148,7 @@ Me voici donc un objet d'horreur pour Armilla,
  pour le roi, pour la cour, pour le peuple tout entier ! 
  A quoi bon mon innocence si je ne puis la prouver !
 
-# SCENE III
+#S  SCENE III
 # NORANDO
 Prouve-la donc et tu deviendras marbre.
 # JENNARO
@@ -175,7 +175,7 @@ Implacable ennemi!... Infernal persécuteur!
  tu remplis mon âme d'épouvante et de fureur, 
  et mon esprit de couleuvres et de serpents !
 
-# SCENE IV
+#S  SCENE IV
 # PANTALON,# JENNARO.
 # JENNARO.
 Ah! bon et fidèle vieillard; 
@@ -311,7 +311,7 @@ Ce pauvre cher enfant,
  il n'a plus confiance qu'en moi, 
  ils l'ont tous abandonné !
 
-# SCENE V
+#S  SCENE V
 # LEANDRE
 Dites, amiral, avez-vous vu le prince Jennaro ?
 # PANTALON.
@@ -344,7 +344,7 @@ Ah ! Canaille !
 Certes, il est porteur de quelqu'ordre cruel ! 
  Ils me le persécutent ! Ils veulent me l'enlever !
 
-# SCENE VI
+#S  SCENE VI
 # TARTAGLIA,
 Amiral, comment vous portez-vous ?
 # PANTALON.
@@ -441,7 +441,7 @@ Fous le camp !.
  Et que je te revoie sans tes deux jambes,
  et que tu me revoies avec un seul oeil !
 
-# SCENE VII
+#S  SCENE VII
 # TRUFFALDIN PANTALON TARTAGLIA
 # TRUFFALDIN
 En voilà une nouvelle! C'est dingue!

@@ -1,6 +1,6 @@
 Merci d'éteindre vos téléphones portables !
 
-# Приветствие масок
+#S   Приветствие масок
 # Brighella :
 Tanti auguri a te ! Tanti augure a te !
  Tanti auguuuuu...
@@ -157,7 +157,7 @@ Que le spectacle commence !
 
 
 # ACTE PREMIER
-# SCENE PREMIÈRE
+#S   SCENE PREMIÈRE
 # PANTALON, battant les matelots à coups de corde.
 Lâchez ce gouvernail, serrez cette écoute, bandits !
  Vers toi, maladroit !
@@ -170,7 +170,7 @@ Terre, terre ! Vous la rateriez si je n'étais pas là !
 Oui, Amiral !
 # PANTALON.
 Et remerciez le ciel, canailles !
-# SCENE II
+#S SCENE II
 # JENNARO.
 Pantalon, je me suis cru perdu
  dans cette horrible tempête.
@@ -242,7 +242,7 @@ Je ne perds pas une miette de temps !
 #Eh! cocola! cocola ! quand tu sauras qui nous sommes,
 # tu ne pleureras pas tant, va !
 
-# SCENE III
+#S SCENE III
 Armilla, vous pleurez, et vos larmes sont pour moi
  un cruel reproche. Cependant, Armilla, vous n'avez pas
  tant sujet de pleurer que vous pouvez le croire.
@@ -290,7 +290,7 @@ Je n'excuserai pas ma faute, mais je l'adoucirai
 Monstre! Scélérat ! Ô ciel, punis- le !
 Ce rapt inspire à mon coeur d'affreux pressentiments !
  Se vérifieront-ils ?
-# SCENE IV
+#S  SCENE IV
 # ARMILLA.
 Barbare, qu'as tu à me dire ?
  Tiens-toi loin de moi, sauvage,
@@ -423,7 +423,7 @@ Armilla, reposez vous de la tempête sous cette tente.
 Je me retire, non pour me reposer,
  mais pour pleurer.
 
-# SCENE V
+#S  SCENE V
 # PANTALON.
 Hourra !
  les bonheurs s'enchaînent l'un à l'autre comme des cerises.
@@ -500,7 +500,7 @@ En fait j'ai dépensé deux cents sequins...
 Excellent vieillard, cœur d'or !
  Quel bel exemple de caractère !
 
-# SCENE VI
+#S  SCENE VI
 # PREMIÈRE COLOMBE.
 Infortuné Jennaro, perdu à jamais !
 # DEUXIÈME COLOMBE.
@@ -554,7 +554,7 @@ Après les corbeaux, voilà que les colombes me menacent !
  je vais en chercher une dans mon navire.
 Mais les voilà parties !
 
-# SCENE VII
+#S  SCENE VII
 # NORANDO.
 Arrête, scélérat, imprudent ravisseur de jeunes filles !
  Je suis Norando. Ces colombes étaient mes messagères,
@@ -597,7 +597,7 @@ Un cheval, un faucon, Armilla:
  Est-ce donc là le bonheur que je t'apporte
  après tant souffrances, tant de fatigues et tant de pleurs !
 
-# SCENE VIII
+#S  SCENE VIII
 # PANTALON.
 Qu'y a-t-il ? Vous ne dormez pas ? 
 # GENNARO.
@@ -656,7 +656,7 @@ Oui, que le ciel me vienne en aide,
  un rayon d'espoir m'illumine.
  Courage, Jennaro ! Sois un homme !
 
-# SCENE IX
+#S  SCENE IX
 # JENNARO.
 Tout est prêt, Armilla.
  Allons, princesse, je vais vous guider.

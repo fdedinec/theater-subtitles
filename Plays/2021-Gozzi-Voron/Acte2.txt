@@ -1,5 +1,5 @@
 # ACTE DEUXIÈME
-# SCENE PREMIÈRE
+#S  SCENE PREMIÈRE
 # TRUFFALDIN.
 Chut ! Silence ! Le roi dort ! 
 Jadis, le roi Millon était, genre, débonnaire,
@@ -47,7 +47,7 @@ Oh, pile poil ! L'horloge sonne !
  Oula ! J'ai failli déconner ! Seulement six heures...
  Du coup j'y vais.
 
-# SCENE II
+#S  SCENE II
 Eh, pourquoi tu cries ?
  Le roi dort.
 #БРИГЕЛЛА. Дык я чисто конкретно и пришёл его будить.
@@ -100,7 +100,7 @@ Dieu sait ce qu'il est devenu.
  Peut-être a-t-il perdu la vie
  en parcourant les mers pour moi !
 
-# SCENE III
+#S  SCENE III
 # TARTAGLIA.
 O Majesté ! Majesté! Une grande nouvelle!
 # LE ROI.
@@ -147,7 +147,7 @@ Hé, quelle énergie !
  qui a tenu toute une ville en émoi pendant trois ans,
  et pourquoi ? Parce qu'elle ressemble à un corbeau !
 
-# SCENE IV
+#S  SCENE IV
 C'est une foulque.
  - C'est une galère.
  - C'est une oie.
@@ -155,7 +155,7 @@ C'est une foulque.
 
 (Improvisation)
 
-# SCENE V
+#S  SCENE V
 # JENNARO.
 Belle Armilla, voici Frattombrose,
  voici la capitale du royaume dont vous serez bientôt reine.
@@ -191,7 +191,7 @@ Je vous en prie, regardez-le,
   son âme qui a tant souffert.
 Mon frère, que je vous embrasse !
 
-# SCENE VI
+#S  SCENE VI
 # LE ROI.
 Mon cher frère, bien-aimé Jennaro,
  enfin dans mes bras !
@@ -278,7 +278,7 @@ Je la plains. Elle ne connait pas les prédictions...
  Mais ce sont peut-être des fables ?
  Ne troublons pas la noce ! 
 
-# SCENE VII
+#S  SCENE VII
 # LE ROI.
 Pourquoi, Jennaro, vouliez-vous retarder mon bonheur ?
 # JENNARO, troublé et confus.

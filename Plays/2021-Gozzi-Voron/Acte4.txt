@@ -1,5 +1,5 @@
 # ACTE QUATRIÈME
-# SCENE PREMIÈRE
+#S  SCENE PREMIÈRE
 # JENNARO.
 Les détours et les obstacles de ce souterrain oublié
  ont bien pu ralentir mes pas, mais non les arrêter.
@@ -24,7 +24,7 @@ Malheur! Ses écailles sont de porphyre et de diamant.
  Mon frère, mes forces sont impuissantes !
 Mon Dieu ! guide ce coup désespéré !
 
-# SCENE II
+#S  SCENE II
 # LE ROI.
 Ah! traître! Toi, dans mon palais,
  la nuit, seul, l'épée à la main ?
@@ -46,7 +46,7 @@ Non, je dois me taire. Destin cruel!
 # LE ROI.
 À moi, mes serviteurs ! À moi!
 
-# SCENE III
+#S  SCENE III
 # TARTAGLIA.
 Nous voilà, Majesté!
  Oh diable! qu'est-ce que j'aperçois ?
@@ -109,7 +109,7 @@ Nous le ferons.
 # TARTAGLIA.
  - Assurément.
 
-#SCÈNE IV
+#S  SCÈNE IV
 # SMERALDINE.
 Princesse, quel est ce tumulte ?
  Quel est ce bruit ?
@@ -167,7 +167,7 @@ Et du reste, la mort me guérirait de mes tourments.
 # SMERALDINE
 Oh ! malheureuse enfant !
 
-#SGÈNE V
+#S  SCÈNE V
 # JENNARO.
 Est-ce seulement à vous, horribles murs, sombre prison,
  que l'infortuné Jennaro pourra dire qu'il meurt
@@ -178,7 +178,7 @@ Je mourrai, mais toi, cruel Norando,
  et qui vois mon désespoir, dis-moi au moins
  si les malheurs de mon frère finiront avec ma vie !
 
-# SCENE VI
+#S  SCENE VI
 # NORANDO.
 Meurs, voleur de femmes,
  meurs avec le renom d'un traître!
@@ -199,7 +199,7 @@ Je ne t'écoute point.
 # viens à mon secours !
 # A toi seul je puis demander de la pitié !
 
-# SCENE VII
+#S  SCENE VII
 # PANTALON.
 Jennaro, je ne vous demande pas la cause de vos méfaits,
  je ne vous tourmente pas, je ne vous reproche rien :
@@ -302,7 +302,7 @@ Pauvre vieux ! que de pleurs tu verseras,
  la cour, le royaume !
  Pourtant personne ne sera plus malheureux que moi !
  
-# SCENE VIII
+#S  SCENE VIII
 # TARTAGLIA.
 Le ciel sait, Altesse, avec quelle douleur,
  avec quel crève-cœur je me présente devant vous.
@@ -339,7 +339,7 @@ Je m'en vais
 # JENNARO.
 Pas de doutes, je suis forcé à cet acte monstrueux !
 
-# SCENE IX
+#S  SCENE IX
 # LE ROI.
 Je me suis rendu à vos prières et à celles de l'amiral.
  Mais je suis venu surtout parce que le bon vieillard

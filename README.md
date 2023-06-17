@@ -17,6 +17,8 @@ Use down arrow or space bar to advance to next screen, up arrow to come back to 
 
 The public screen always starts blank.
 
+Use 's' and 'z' keys to jump to the beginning of next and previous scene espectively. This is mostly useful during rehearsals.
+
 ### While preparing your subtitle file
 
 - Acquire somehow a text version of your play.
@@ -28,7 +30,7 @@ The public screen always starts blank.
   - typing 'r' reloads the subtitle file, so you may edit it while displaying it. 
 
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
-This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the representation: better add a few blank lines at the end of your file!  
+This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the representation: better add a few blank lines at the end of your file!
 
 ### Examples
 
@@ -47,6 +49,7 @@ The text to be displayed is read from a plain text file (UTF-8), with a trivial 
 - any line beginning with a hash sign is a comment (displayed in the terminal but not in the public screen -- this is useful e.g. for character names)
 - a group of lines to be displayed together begins with an unindented line, possibly followed by indented lines (i.e. lines beginning with a space)
 - an empty line shows a blank screen to the public
+- a comment line beginning with '#S' marks the beginning of a scene (for quick navigation using 's' and 'z' keys)
 
 ## Configuration
 No font size, window size or style option, but of course setting these up this will be necessary since each theater is different.
