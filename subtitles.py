@@ -8,6 +8,23 @@ from sys import exit
 from time import sleep
 import codecs
 
+pygame.init()
+# You may need to adjust the following values
+font_size=30; # or 24
+
+# This defines the window size. I choose it larger than the display screen,
+# then I move the window so that all the window decorations are out of the screen
+# (just because I am afraid toggling fullscreen mode in a dual-display setup) 
+screen_size = 900,700 # for our good old Acer 800x600 projo
+#screen_size = 1300,900 # for a 1024x768 projo 
+
+# Vertical offset. 0 is in the center, 1.0 moves one line up, -3.5 moves 3.5 lines down.
+# To be adjusted depending on the beamer setup
+vertical_offset=0
+
+# if you want to change the font style, it is here
+myfont = pygame.font.SysFont("dejavusans", font_size, 0, 0)
+
 
 def toggle_fullscreen():
     screen = pygame.display.get_surface()
@@ -36,14 +53,9 @@ def toggle_fullscreen():
     
 def main(filename):
     FPS = 10
-    pygame.init()
     black = 0, 0, 0
     white = 255, 255, 255
-    font_size=30; # 24 normal
     line_height=font_size*1.5
-    myfont = pygame.font.SysFont("dejavusans", font_size, 0, 0)
-    #screen_size = 1300,900 # for a 1024x768 proj
-    screen_size = 900,700 # forour cheap Acer 800x600 proj
     screen = pygame.display.set_mode(screen_size,0,24)
     #screen = toggle_fullscreen()
 
@@ -79,10 +91,7 @@ def main(filename):
         y=1
         for line in phrase:
             text = myfont.render(line,True,white)
-            #text_rect = text.get_rect(center=(screen.get_width()/2,line_height*(y+1) )) # trois quarts haut
-            #text_rect = text.get_rect(center=(screen.get_width()/2,line_height*(y+0.5) )) # en haut 
-            text_rect = text.get_rect(center=(screen.get_width()/2,screen.get_height()/2+line_height*(y+1) )) # en bas
-            #text_rect = text.get_rect(center=(screen.get_width()/2,screen.get_height()/2.2+line_height*(y+1) )) # Au milieu
+            text_rect = text.get_rect(center=(screen.get_width()/2, screen.get_height()/2 + line_height*(y-2-vertical_offset) )) 
             y+=1
             screen.blit(text, text_rect)
         pygame.display.update()

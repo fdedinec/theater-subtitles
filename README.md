@@ -20,7 +20,7 @@ The public screen always starts blank.
 Use 's' and 'z' keys to jump to the beginning of next and previous scene espectively. This is mostly useful during rehearsals.
 
 ### Syntax of the text file 
-The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples above):
+The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples below):
 
 - any line beginning with a hash sign is a comment (not displayed) -- this is useful e.g. for character names
 - a group of (at most 4) lines to be displayed together begins with an unindented line, possibly followed by indented lines, i.e. lines beginning with a space (if it is not clear, just see the example files).
@@ -61,10 +61,10 @@ This is useful when preparing files (you may go directly to the end using the up
 ## Configuration (or the lack of it)
 
 There is a limit of at most 4 lines of text in each screen. 
-So far, this is hardcoded in subtitle.py.
+So far, this is hardcoded in the python.
 
-No font size, window size or style option, but of course setting these up this will be necessary since each theater is different.
-Currently you have to modify these features directly in the code, look for the comments...
+Each theater has a different setup, so it is necessary to adjust font size, window size, text position, etc.
+Currently you have to edit variables directly in the code, look for the comments near the start...
 
 I usually open a window that is slightly larger than the resolution of the screen/beamer, then move it using the mouse so that its borders are out of the display.
 
