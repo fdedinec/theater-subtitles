@@ -19,7 +19,32 @@ The public screen always starts blank.
 
 Use 's' and 'z' keys to jump to the beginning of next and previous scene espectively. This is mostly useful during rehearsals.
 
-### While preparing your subtitle file
+### Syntax of the text file 
+The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples above):
+
+- any line beginning with a hash sign is a comment (not displayed) -- this is useful e.g. for character names
+- a group of (at most 4) lines to be displayed together begins with an unindented line, possibly followed by indented lines, i.e. lines beginning with a space (if it is not clear, just see the example files).
+The advantage is that it is very quick to edit during rehearsals, as the actors act...
+- an empty line shows a blank screen to the public
+- a comment line beginning with '#S' marks the beginning of a scene (for quick navigation using 's' and 'z' keys)
+
+
+### Examples
+
+A minimal commented example:
+
+		python subtitles.py calibration.txt 
+
+A classical play:
+
+		python subtitles.py Plays/2021-Gozzi-Voron/Acte1.txt 
+
+A display of poetry (translated from Russian to French):
+
+		python subtitles.py Plays/2019-zolotoi-viek.txt
+
+
+## How to prepare your subtitle file
 
 - Acquire somehow a text version of your play.
 - Do some global replace, e.g. to comment out the character names, etc. 
@@ -32,26 +57,12 @@ Use 's' and 'z' keys to jump to the beginning of next and previous scene especti
 The end of MyPlayFile.txt is wrapped to the beginning, and the other way round.
 This is useful when preparing files (you may go directly to the end using the up arrow) but dangerous on the day of the representation: better add a few blank lines at the end of your file!
 
-### Examples
 
-A classical play:
+## Configuration (or the lack of it)
 
-		python subtitles.py Plays/2021-Gozzi-Voron/Acte1.txt 
+There is a limit of at most 4 lines of text in each screen. 
+So far, this is hardcoded in subtitle.py.
 
-A display of poetry (translated from Russian to French):
-
-		python subtitles.py Plays/2019-zolotoi-viek.txt
-
-
-## Syntax of the text file 
-The text to be displayed is read from a plain text file (UTF-8), with a trivial syntax (look at the examples above):
-
-- any line beginning with a hash sign is a comment (displayed in the terminal but not in the public screen -- this is useful e.g. for character names)
-- a group of lines to be displayed together begins with an unindented line, possibly followed by indented lines (i.e. lines beginning with a space)
-- an empty line shows a blank screen to the public
-- a comment line beginning with '#S' marks the beginning of a scene (for quick navigation using 's' and 'z' keys)
-
-## Configuration
 No font size, window size or style option, but of course setting these up this will be necessary since each theater is different.
 Currently you have to modify these features directly in the code, look for the comments...
 

@@ -42,8 +42,8 @@ def main(filename):
     font_size=30; # 24 normal
     line_height=font_size*1.5
     myfont = pygame.font.SysFont("dejavusans", font_size, 0, 0)
-    screen_size = 1300,900 # for a 1024x768 proj
-    #screen_size = 900,700 # forour cheap Acer 800x600 proj
+    #screen_size = 1300,900 # for a 1024x768 proj
+    screen_size = 900,700 # forour cheap Acer 800x600 proj
     screen = pygame.display.set_mode(screen_size,0,24)
     #screen = toggle_fullscreen()
 
@@ -75,7 +75,7 @@ def main(filename):
 
     def display(i):
         screen.fill(black)
-        phrase=subtitles[i]
+        phrase=subtitles[i % len(subtitles)]
         y=1
         for line in phrase:
             text = myfont.render(line,True,white)
@@ -88,12 +88,12 @@ def main(filename):
         pygame.display.update()
 
         print("*********************************************************")
-        for j in range(-4,6):
+        for j in range(-3,5):
           if(j==0 or j==1):
               print("======================================================")
           else:
-              print("--------------------------------------------------")
-          phrase=subtitles[i+j]
+              print("-----------------------------------------------")
+          phrase=subtitles[(i+j) % len(subtitles)]
           for line in phrase:
             print(line)
           for k in range(4-len(phrase)):
@@ -121,16 +121,18 @@ def main(filename):
             if event.type == pygame.KEYDOWN and event.key == pygame.K_s:
                 # lookup in which scene we are
                 j=0
-                while scenes[j]<=i:
+                while  j<len(scenes) and scenes[j]<=i:
                     j+=1
                 # now scenes[j]>i : move to next scene 
+                if j>=len(scenes):
+                    j=0
                 i=scenes[j]
                 display(i)
             if event.type == pygame.KEYDOWN and event.key == pygame.K_z:
                 # lookup in which scene we are
                 j=0
                 while scenes[j]<i:
-                    j+=1
+                    j+=1;
                 # now scenes[j]>=i:  move to previous scene
                 i=scenes[j-1]
                 display(i)

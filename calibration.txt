@@ -1,0 +1,31 @@
+# this is a pattern that can be used to see
+#  where the text is going to be shown
+Axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxZ
+# The following illustrates the syntax
+# Empty screen: an empty line (beware not to leave a space)
+
+# one line of text
+To be or not to be, that is the question
+# two lines of text
+To be
+ or not to be,
+ that
+ is the question
+#S Scene 1
+# thanks to the #S you may jump directly here 
+To
+be
+or
+not
+to
+be,
+#S Scene 2
+that
+is
+the
+question
+#S Final screen
+The end
